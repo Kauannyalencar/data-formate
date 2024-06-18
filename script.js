@@ -1,25 +1,4 @@
-<<<<<<< HEAD
 const currentDateParagraph = document.getElementById('current-date')
-=======
-
-const currentDateParagraph = document.getElementById('current-date')
-const dateOptionsSelectElement = document.getElementById("date-options")
-const hoursPara = document.querySelector(".hours")
-const minutesPara = document.querySelector(".minutes")
-const secondsPara = document.querySelector(".seconds")
-currentDateParagraph.textContent = setDate()
-console.log(dateOptionsSelectElement.value);
-dateOptionsSelectElement.addEventListener("change", (e) => {
-    switch (dateOptionsSelectElement.value) {
-        case 'yyyy-mm-dd':
-            currentDateParagraph.textContent = setDate().split("-").reverse().join("-")
-            break;
-        default:
-            currentDateParagraph.textContent = setDate()
-            break
-
-const currentDateParagraph = document.getElementById('current-date') 
->>>>>>> 40dd9931744b44392a09901abd0ab5b44addf910
 const dateOptionsSelectElement = document.getElementById("date-options")
 const hoursPara = document.querySelector(".hours")
 const minutesPara = document.querySelector(".minutes")
@@ -42,10 +21,6 @@ dateOptionsSelectElement.addEventListener("change", (e) => {
 
 })
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 40dd9931744b44392a09901abd0ab5b44addf910
 function setDate() {
     const date = new Date()
     const day = date.getDate()
@@ -61,9 +36,4 @@ function setDate() {
     return formattedDate
 }
 
-<<<<<<< HEAD
 setInterval(setDate, 1000);
-=======
-setInterval(setDate, 1000);
-
->>>>>>> 40dd9931744b44392a09901abd0ab5b44addf910

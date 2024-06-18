@@ -13,14 +13,7 @@
 }
 
 body {
-<<<<<<< HEAD
   font-family: Arial, Helvetica, sans-serif;
-=======
-<<<<<<< HEAD
-  font-family: Arial, Helvetica, sans-serif;
-=======
->>>>>>> 6404e1f64f1e2753bce7f5fc1d9b13592bfba2ce
->>>>>>> 40dd9931744b44392a09901abd0ab5b44addf910
   color: var(--white);
   background-color: var(--dark-grey);
 }
@@ -97,10 +90,6 @@ select {
   text-align: center;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 40dd9931744b44392a09901abd0ab5b44addf910
 .clock{
   position: absolute;
   max-width: 110px;
@@ -121,11 +110,6 @@ select {
   
 }
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6404e1f64f1e2753bce7f5fc1d9b13592bfba2ce
->>>>>>> 40dd9931744b44392a09901abd0ab5b44addf910
 @media (max-width: 375px) {
   .title {
     font-size: 2rem;
